@@ -1,0 +1,122 @@
+export default {
+  meta: {
+    title: 'Translog Company — Straßengüterverkehr in ganz Europa',
+    description: 'Standard-, Spezial- und Nonstop-Expresstransporte auf der Straße in der gesamten EU seit 2005. Rund 150 EURO-6-Fahrzeuge, rund um die Uhr erreichbar.',
+  },
+  nav: {
+    services: 'Leistungen', fleet: 'Fuhrpark', company: 'Unternehmen', news: 'Aktuelles', contacts: 'Kontakt',
+    quote: 'Angebot anfordern', allServices: 'Alle Leistungen',
+    allServicesText: 'Inlands- und Exporttransporte, Sondergut, Lagerung.',
+    home: 'Startseite', language: 'Sprache', openMenu: 'Menü öffnen', closeMenu: 'Menü schließen',
+    skip: 'Zum Inhalt springen', follow: 'Folgen Sie uns',
+  },
+  hero: {
+    title: 'Straßenfracht in ganz Europa, 24/7',
+    lead: 'Standard-, Spezial- und Nonstop-Expresstransporte für die Automobil-, Schwer- und Lebensmittelindustrie. Rund 150 EURO-6-Fahrzeuge, unterwegs seit 2005.',
+    formTitle: 'Wohin geht Ihre Ladung?',
+    from: 'Ladeort', to: 'Entladeort', placeholder: 'Stadt, Land',
+    cta: 'Angebot erhalten',
+    formNote: 'Wir sind rund um die Uhr erreichbar und antworten so schnell wie möglich, auch kurzfristig.',
+  },
+  facts: [
+    { label: 'Am Markt seit', value: '2005' },
+    { label: 'Fuhrpark', value: 'ca. 150 Fahrzeuge, EURO 6' },
+    { label: 'Kapazität', value: 'Transporter ab 1,5 t bis Sattelzüge 24 t' },
+    { label: 'CMR-Versicherung', value: 'bis 2,5 Mio. € pro Schadensfall' },
+  ],
+  services: {
+    title: 'Leistungen',
+    lead: 'Den Großteil unserer täglichen Arbeit machen zeitkritische Transporte für die Automobil-, Schwer- und Lebensmittelindustrie aus.',
+    more: 'Mehr erfahren', ask: 'Angebot anfordern',
+    extra: [
+      { title: 'Inland, Export und Import', text: 'Transporte in der gesamten EU, vom Paket bis zur Komplettladung.' },
+      { title: 'Sondergut', text: 'Übergroße Ladungen, Abfälle und Gefahrgut.' },
+      { title: 'Lagerung', text: 'Lagerlösungen ergänzend zum Transport.' },
+    ],
+  },
+  service: {
+    express: {
+      title: 'Express-Straßenfracht',
+      short: 'Exklusives Fahrzeug von A nach B, ohne Zwischenstopps und Umladung.',
+      intro: 'Die gesamte Ladefläche des Fahrzeugs steht Ihrer Sendung zur Verfügung, und der Transport erfolgt direkt von A nach B ohne weitere Stopps und Umladungen.',
+      features: ['Vom Paket bis zur Komplettladung', 'Ladungsüberwachung 24/7', 'Europaweite Abdeckung', 'Nonstop-Fahrt mit 2 Fahrern', 'Echtzeit-Tracking', 'Just-in-Time-Lieferung'],
+      advantages: ['Fuhrpark mit 150 modernen Fahrzeugen (EURO 6, EURO 5 EEV)', 'Kühl- und Planenauflieger', '24-Stunden-Ortungssystem', 'CMR-Versicherung bis 15 Mio. CZK', 'Erfahrung mit Obst, Gemüse, Tiefkühlware, Industrie- und Pharmagütern'],
+    },
+    'dangerous-goods': {
+      title: 'Gefahrgut und Flüssigtransporte',
+      short: 'ADR-Transporte sowie Tankwagen für Flüssig- und Trockenschüttgut.',
+      intro: 'Wir sind spezialisiert auf den Transport flüssiger Lebensmittel wie Schokolade, Bier, Wein, Fruchtsäfte, Zuckerlösungen, Milch und mehr.',
+      features: ['Thermoauflieger', 'Mega-Auflieger', 'Tankwagen für Flüssiggut', 'Silofahrzeug für Trockenschüttgut', 'Erfahrene und geschulte ADR-Fahrer'],
+      advantages: [],
+    },
+    whatYouGet: 'Was Sie bekommen', whyUs: 'Warum Translog',
+  },
+  process: {
+    title: 'So läuft ein Transport ab',
+    lead: 'Ein Ansprechpartner von der Anfrage bis zur Zustellung.',
+    steps: [
+      { title: 'Anfrage', text: 'Senden Sie Route, Ladung und Termine.' },
+      { title: 'Angebot', text: 'Wir wählen das Fahrzeug und nennen den Preis.' },
+      { title: 'Beladung', text: 'Das Fahrzeug kommt zur vereinbarten Zeit.' },
+      { title: 'Tracking', text: 'GPS und Ladungsüberwachung rund um die Uhr.' },
+      { title: 'Zustellung', text: 'Just in Time, mit CMR-Dokumenten.' },
+    ],
+  },
+  fleet: {
+    title: 'Fuhrpark',
+    lead: 'Rund 150 moderne Fahrzeuge, EURO 6 und EURO 5 EEV, alle mit GPS-Ortung. Fuhrpark und Ausstattung passen wir den Anforderungen unserer Kunden an.',
+    items: [
+      { title: 'Sattelzugmaschinen', text: 'Bis 24 t' },
+      { title: 'Planenauflieger', text: 'Standard und Mega' },
+      { title: 'Kühlauflieger', text: 'Lebensmittel, Pharma, Tiefkühl' },
+      { title: 'Tankwagen', text: 'Flüssig- und Schüttgut' },
+      { title: 'Transporter', text: 'Ab 1,5 t' },
+    ],
+    people: 'Menschen', peopleText: 'Geschulte Fahrer, mehrsprachiges Personal und ein Partnernetzwerk in ganz Europa.',
+    network: 'Einer für alle – alle für Sie',
+    networkText: 'Langjährige Partnerschaften mit europäischen Dienstleistern ermöglichen uns komplette Logistiklösungen, während Sie einen direkten Ansprechpartner bei uns behalten.',
+  },
+  industries: { title: 'Branchen', items: ['Automobilindustrie', 'Schwerindustrie', 'Lebensmittel', 'Pharma', 'Industriegüter'] },
+  company: {
+    title: 'Unser Unternehmen',
+    text: 'Die Translog Group wurde 2005 gegründet und hat Standorte in Tschechien und Polen. Interdisziplinäres Know-how und vielfältige Ausstattung ermöglichen es uns, sofort auf individuelle Wünsche zu reagieren. Dabei verlieren wir Umweltschutz und Wirtschaftlichkeit nicht aus den Augen.',
+    motto: 'Fokussieren, Verbinden und Entwickeln ist unser strategischer Plan für die Zukunft.',
+    ceoRole: 'Geschäftsführerin',
+    offices: { prague: 'Prag', poland: 'Polen' },
+  },
+  news: {
+    title: 'Aktuelles', all: 'Alle Meldungen', back: 'Zurück zu Aktuelles',
+    items: {
+      'start-translog-company': {
+        title: 'Start Translog Company',
+        excerpt: 'Fokussieren, Verbinden und Entwickeln ist unser strategischer Plan für die Zukunft. Die Translog Group wurde 2005 gegründet.',
+        body: [
+          'Fokussieren, Verbinden und Entwickeln ist unser strategischer Plan für die Zukunft. Die Translog Group wurde 2005 gegründet. Wir konzentrieren uns auf die Durchführung verschiedener Transportarten. Um die Erwartungen unserer Kunden zu erfüllen, schöpfen wir alle verfügbaren Möglichkeiten aus.',
+          'Dank langjähriger Erfahrung in der Logistik bieten wir unseren Kunden Standard-, Spezial- oder Nonstop-Expresstransporte. Unser Leistungsspektrum wächst ständig, sodass wir verschiedene Lösungen für unterschiedliche Anforderungen anbieten können. Gefahrguttransporte gehören ebenso zu unserem Angebot wie Lösungen für Sammel- und Stückgut.',
+          'Interdisziplinäres Know-how und vielfältige Ausstattung ermöglichen es uns, sofort auf individuelle Kundenwünsche zu reagieren. Den Großteil unserer täglichen Arbeit macht die Organisation zeitkritischer Transporte für die Automobil-, Schwer- und Lebensmittelindustrie aus.',
+          'Der gesamte Fuhrpark der Translog Group und seine Ausstattung verändern sich ständig und können an die Anforderungen unserer Kunden angepasst werden. Dabei verlieren wir Umweltschutz und Wirtschaftlichkeit nicht aus den Augen.',
+          'Damit wir unseren Kunden garantieren können, dass ihre Aufträge so schnell wie möglich – auch kurzfristig – bearbeitet werden, sind wir rund um die Uhr erreichbar und liefern „Just in Time“!',
+        ],
+      },
+    },
+  },
+  contacts: {
+    title: 'Kontakt', lead: 'Wir sind rund um die Uhr erreichbar. Rufen Sie an, schreiben Sie uns oder senden Sie eine Anfrage mit Ihrer Route.',
+    openMap: 'In Google Maps öffnen', formTitle: 'Angebot anfordern',
+  },
+  form: {
+    from: 'Ladeort', to: 'Entladeort', placeholder: 'Stadt, Land',
+    cargo: 'Ladung', cargoPh: 'z. B. 12 Paletten, 8 t, gekühlt',
+    name: 'Ihr Name', company: 'Firma', email: 'E-Mail', phone: 'Telefon',
+    details: 'Details', detailsPh: 'Termine, Maße, besondere Anforderungen',
+    submit: 'Anfrage per E-Mail senden',
+    note: 'Öffnet Ihr E-Mail-Programm mit der Anfrage an {email}.',
+    sent: 'Ihr E-Mail-Programm wurde mit der Anfrage geöffnet. Falls nicht, schreiben Sie an {email}.',
+    subject: 'Transportanfrage',
+  },
+  footer: {
+    tagline: 'Jeder Tag ist für uns ein neuer Tag, und wir arbeiten hart daran, unsere Kunden überall zufriedenzustellen.',
+    about: 'Über uns', conditions: 'Allgemeine Bedingungen', rights: 'Alle Rechte vorbehalten.',
+  },
+  notFound: { title: 'Diese Seite existiert nicht', text: 'Der Link ist möglicherweise veraltet. Beginnen Sie auf der Startseite oder kontaktieren Sie uns direkt.', cta: 'Zur Startseite' },
+}

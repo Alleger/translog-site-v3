@@ -1,0 +1,122 @@
+export default {
+  meta: {
+    title: 'Translog Company — road freight across Europe',
+    description: 'Standard, special and nonstop express road transports across the EU since 2005. Around 150 EURO 6 vehicles, available 24/7.',
+  },
+  nav: {
+    services: 'Services', fleet: 'Fleet', company: 'Company', news: 'News', contacts: 'Contacts',
+    quote: 'Request a quote', allServices: 'All services',
+    allServicesText: 'Domestic and export transports, special cargo, warehousing.',
+    home: 'Home', language: 'Language', openMenu: 'Open menu', closeMenu: 'Close menu',
+    skip: 'Skip to content', follow: 'Follow us',
+  },
+  hero: {
+    title: 'Road freight across Europe, 24/7',
+    lead: 'Standard, special and nonstop express transports for the automotive, heavy and food industries. Around 150 EURO 6 vehicles, on the road since 2005.',
+    formTitle: 'Where does your load go?',
+    from: 'Loading place', to: 'Unloading place', placeholder: 'City, country',
+    cta: 'Get a quote',
+    formNote: 'We are available 24/7 and reply as soon as possible, even at short notice.',
+  },
+  facts: [
+    { label: 'In business since', value: '2005' },
+    { label: 'Fleet', value: 'ca. 150 vehicles, EURO 6' },
+    { label: 'Capacity', value: '1.5 t vans to 24 t trailers' },
+    { label: 'CMR insurance', value: 'up to €2.5 M per event' },
+  ],
+  services: {
+    title: 'Services',
+    lead: 'Time-sensitive transports for the automotive, heavy and food industries are most of our daily work.',
+    more: 'Read more', ask: 'Ask for a quote',
+    extra: [
+      { title: 'Domestic, export and import', text: 'Transports all over the EU area, from parcel to FTL.' },
+      { title: 'Special cargo', text: 'Oversized cargo, waste and dangerous goods.' },
+      { title: 'Warehousing', text: 'Storage solutions alongside transport.' },
+    ],
+  },
+  service: {
+    express: {
+      title: 'Express road freight',
+      short: 'Dedicated truck from point A to point B, without stops or transhipment.',
+      intro: 'The entire loading area of the vehicle is dedicated to your shipment and the transport takes place directly, from point A to point B without further stops and transhipments.',
+      features: ['From parcel to FTL', '24/7 cargo monitoring', 'European coverage', 'Non-stop driving with 2 drivers', 'Real-time tracking', 'Just-in-Time delivery'],
+      advantages: ['Fleet of 150 modern vehicles (EURO 6, EURO 5 EEV)', 'Refrigerated and tarpaulin semi-trailers', '24-hour tracking system', 'CMR insurance up to 15 million CZK', 'Experience with fruit, vegetables, frozen products, industrial and pharmaceutical goods'],
+    },
+    'dangerous-goods': {
+      title: 'Dangerous goods & liquid bulk',
+      short: 'ADR transports and tankers for liquid and dry bulk.',
+      intro: 'We specialize in the transportation of liquid foods such as chocolate, beer, wine, fruit juices, sugar solutions, milk and more.',
+      features: ['Thermo trailer', 'Mega trailer', 'Liquid bulk tankers', 'Dry bulk tanker', 'Experienced and trained ADR drivers'],
+      advantages: [],
+    },
+    whatYouGet: 'What you get', whyUs: 'Why Translog',
+  },
+  process: {
+    title: 'How a transport runs',
+    lead: 'One contact person from the request to the delivery.',
+    steps: [
+      { title: 'Request', text: 'Send the route, the cargo and the dates.' },
+      { title: 'Offer', text: 'We choose the vehicle and send the price.' },
+      { title: 'Loading', text: 'The truck arrives at the agreed time.' },
+      { title: 'Tracking', text: 'GPS and cargo monitoring 24/7.' },
+      { title: 'Delivery', text: 'Just in Time, with CMR documents.' },
+    ],
+  },
+  fleet: {
+    title: 'Fleet',
+    lead: 'Around 150 modern vehicles, EURO 6 and EURO 5 EEV, all with GPS tracking. The fleet and its equipment change with our customers’ requirements.',
+    items: [
+      { title: 'Tractor-trailer units', text: 'Up to 24 t' },
+      { title: 'Tarpaulin trailers', text: 'Standard and Mega' },
+      { title: 'Refrigerated trailers', text: 'Food, pharma, frozen' },
+      { title: 'Tankers', text: 'Liquid and dry bulk' },
+      { title: 'Delivery vans', text: 'From 1.5 t' },
+    ],
+    people: 'People', peopleText: 'Trained drivers, multilingual staff and a partner network across Europe.',
+    network: 'One for all – all for you',
+    networkText: 'Long-term partnerships with European service providers let us offer complete logistics solutions while you keep one direct contact with us.',
+  },
+  industries: { title: 'Industries', items: ['Automotive', 'Heavy industry', 'Food', 'Pharma', 'Industrial goods'] },
+  company: {
+    title: 'Our company',
+    text: 'The Translog Group was founded in 2005, with facilities in the Czech Republic and Poland. Interdisciplinary know-how and diversified equipment let us react to individual requests immediately. We do not lose focus on environmental protection and cost-efficiency.',
+    motto: 'Focusing, Connecting and Developing is our strategic plan for the future.',
+    ceoRole: 'Chief Executive Officer',
+    offices: { prague: 'Prague', poland: 'Poland' },
+  },
+  news: {
+    title: 'News', all: 'All news', back: 'Back to news',
+    items: {
+      'start-translog-company': {
+        title: 'Start Translog Company',
+        excerpt: 'Focusing, Connecting and Developing is our strategic plan for the future. The Translog Group was founded in 2005.',
+        body: [
+          'Focusing, Connecting and Developing is our strategic plan for the future. The Translog Group was founded in 2005. We are focused on the realization of several transport types. To match the expectations of our customers, we exhaust all available possibilities.',
+          'As a result of many years of logistic business experience, we provide our customers standard-, special- or nonstop express transports. Our range of services grows continuously, so we can provide various solutions for different requests. Dangerous goods transports are part of our service as well as transport solutions for consolidated and groupage cargo.',
+          'Interdisciplinary know-how and diversified equipment makes it possible for us to react to individual customer wishes immediately. Most of our daily work is the organization of time sensitive transports for the automotive industry, the heavy industry and the food industry.',
+          'The whole vehicle fleet of the Translog Group and its equipment is continuously in change and can be adapted to our customer’s requirements. In this process, we do not lose the focus on the environment protection and the cost-efficiency.',
+          'In order to guarantee our customers that their orders will be handled as soon as possible, even at short notice, we are available 24/7 and deliver “Just in Time”!',
+        ],
+      },
+    },
+  },
+  contacts: {
+    title: 'Contacts', lead: 'We are available 24/7. Call, write, or send a quote request with your route.',
+    openMap: 'Open in Google Maps', formTitle: 'Request a quote',
+  },
+  form: {
+    from: 'Loading place', to: 'Unloading place', placeholder: 'City, country',
+    cargo: 'Cargo', cargoPh: 'e.g. 12 pallets, 8 t, refrigerated',
+    name: 'Your name', company: 'Company', email: 'Email', phone: 'Phone',
+    details: 'Details', detailsPh: 'Dates, dimensions, special requirements',
+    submit: 'Send request by email',
+    note: 'Opens your email app with the request addressed to {email}.',
+    sent: 'Your email app opened with the request. If it didn’t, write to {email}.',
+    subject: 'Quote request',
+  },
+  footer: {
+    tagline: 'Everyday is a new day for us and we work really hard to satisfy our customer everywhere.',
+    about: 'About us', conditions: 'General conditions', rights: 'All rights reserved.',
+  },
+  notFound: { title: 'This page doesn’t exist', text: 'The link may be outdated. Start from the home page or contact us directly.', cta: 'Go to home page' },
+}

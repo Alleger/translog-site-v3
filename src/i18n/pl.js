@@ -1,0 +1,122 @@
+export default {
+  meta: {
+    title: 'Translog Company — transport drogowy w całej Europie',
+    description: 'Standardowe, specjalne i ekspresowe transporty drogowe non-stop w całej UE od 2005 roku. Około 150 pojazdów EURO 6, dostępni 24/7.',
+  },
+  nav: {
+    services: 'Usługi', fleet: 'Flota', company: 'Firma', news: 'Aktualności', contacts: 'Kontakt',
+    quote: 'Zapytaj o wycenę', allServices: 'Wszystkie usługi',
+    allServicesText: 'Transporty krajowe i eksportowe, ładunki specjalne, magazynowanie.',
+    home: 'Strona główna', language: 'Język', openMenu: 'Otwórz menu', closeMenu: 'Zamknij menu',
+    skip: 'Przejdź do treści', follow: 'Obserwuj nas',
+  },
+  hero: {
+    title: 'Transport drogowy w całej Europie, 24/7',
+    lead: 'Standardowe, specjalne i ekspresowe transporty non-stop dla przemysłu motoryzacyjnego, ciężkiego i spożywczego. Około 150 pojazdów EURO 6, w trasie od 2005 roku.',
+    formTitle: 'Dokąd jedzie Twój ładunek?',
+    from: 'Miejsce załadunku', to: 'Miejsce rozładunku', placeholder: 'Miasto, kraj',
+    cta: 'Otrzymaj wycenę',
+    formNote: 'Jesteśmy dostępni 24/7 i odpowiadamy jak najszybciej, także w krótkim terminie.',
+  },
+  facts: [
+    { label: 'Na rynku od', value: '2005' },
+    { label: 'Flota', value: 'ok. 150 pojazdów, EURO 6' },
+    { label: 'Ładowność', value: 'od busów 1,5 t do naczep 24 t' },
+    { label: 'Ubezpieczenie CMR', value: 'do 2,5 mln € na zdarzenie' },
+  ],
+  services: {
+    title: 'Usługi',
+    lead: 'Większość naszej codziennej pracy to transporty krytyczne czasowo dla przemysłu motoryzacyjnego, ciężkiego i spożywczego.',
+    more: 'Więcej', ask: 'Zapytaj o wycenę',
+    extra: [
+      { title: 'Krajowe, eksport i import', text: 'Transporty na terenie całej UE, od paczki do FTL.' },
+      { title: 'Ładunki specjalne', text: 'Ładunki ponadgabarytowe, odpady i towary niebezpieczne.' },
+      { title: 'Magazynowanie', text: 'Rozwiązania magazynowe powiązane z transportem.' },
+    ],
+  },
+  service: {
+    express: {
+      title: 'Ekspresowy transport drogowy',
+      short: 'Dedykowany pojazd z punktu A do punktu B, bez postojów i przeładunków.',
+      intro: 'Cała powierzchnia ładunkowa pojazdu jest przeznaczona na Twoją przesyłkę, a transport odbywa się bezpośrednio, z punktu A do punktu B, bez dodatkowych postojów i przeładunków.',
+      features: ['Od paczki do FTL', 'Monitoring ładunku 24/7', 'Zasięg w całej Europie', 'Jazda non-stop z 2 kierowcami', 'Śledzenie w czasie rzeczywistym', 'Dostawa Just in Time'],
+      advantages: ['Flota 150 nowoczesnych pojazdów (EURO 6, EURO 5 EEV)', 'Naczepy chłodnie i plandeki', 'Całodobowy system śledzenia', 'Ubezpieczenie CMR do 15 mln CZK', 'Doświadczenie z owocami, warzywami, mrożonkami, towarami przemysłowymi i farmaceutycznymi'],
+    },
+    'dangerous-goods': {
+      title: 'Towary niebezpieczne i ładunki płynne',
+      short: 'Transporty ADR oraz cysterny do ładunków płynnych i sypkich.',
+      intro: 'Specjalizujemy się w przewozie płynnych produktów spożywczych, takich jak czekolada, piwo, wino, soki owocowe, roztwory cukru, mleko i inne.',
+      features: ['Naczepa termo', 'Naczepa Mega', 'Cysterny do płynów', 'Cysterna do ładunków sypkich', 'Doświadczeni i przeszkoleni kierowcy ADR'],
+      advantages: [],
+    },
+    whatYouGet: 'Co otrzymujesz', whyUs: 'Dlaczego Translog',
+  },
+  process: {
+    title: 'Jak przebiega transport',
+    lead: 'Jedna osoba kontaktowa od zapytania do dostawy.',
+    steps: [
+      { title: 'Zapytanie', text: 'Wyślij trasę, ładunek i terminy.' },
+      { title: 'Oferta', text: 'Dobieramy pojazd i przesyłamy cenę.' },
+      { title: 'Załadunek', text: 'Pojazd przyjeżdża o ustalonej godzinie.' },
+      { title: 'Śledzenie', text: 'GPS i monitoring ładunku 24/7.' },
+      { title: 'Dostawa', text: 'Just in Time, z dokumentami CMR.' },
+    ],
+  },
+  fleet: {
+    title: 'Flota',
+    lead: 'Około 150 nowoczesnych pojazdów EURO 6 i EURO 5 EEV, wszystkie z lokalizacją GPS. Flotę i jej wyposażenie dostosowujemy do wymagań klientów.',
+    items: [
+      { title: 'Ciągniki z naczepami', text: 'Do 24 t' },
+      { title: 'Naczepy plandeki', text: 'Standard i Mega' },
+      { title: 'Naczepy chłodnie', text: 'Żywność, farmacja, mrożonki' },
+      { title: 'Cysterny', text: 'Ładunki płynne i sypkie' },
+      { title: 'Busy dostawcze', text: 'Od 1,5 t' },
+    ],
+    people: 'Ludzie', peopleText: 'Przeszkoleni kierowcy, wielojęzyczny zespół i sieć partnerów w całej Europie.',
+    network: 'Jeden za wszystkich – wszyscy dla Ciebie',
+    networkText: 'Długoletnie partnerstwa z europejskimi usługodawcami pozwalają nam oferować kompleksowe rozwiązania logistyczne, a Ty masz jeden bezpośredni kontakt z nami.',
+  },
+  industries: { title: 'Branże', items: ['Motoryzacja', 'Przemysł ciężki', 'Żywność', 'Farmacja', 'Towary przemysłowe'] },
+  company: {
+    title: 'Nasza firma',
+    text: 'Grupa Translog powstała w 2005 roku i ma oddziały w Czechach i Polsce. Interdyscyplinarna wiedza i zróżnicowany sprzęt pozwalają nam natychmiast reagować na indywidualne potrzeby. Nie tracimy przy tym z oczu ochrony środowiska i efektywności kosztowej.',
+    motto: 'Koncentracja, łączenie i rozwój to nasz strategiczny plan na przyszłość.',
+    ceoRole: 'Prezes zarządu',
+    offices: { prague: 'Praga', poland: 'Polska' },
+  },
+  news: {
+    title: 'Aktualności', all: 'Wszystkie aktualności', back: 'Wróć do aktualności',
+    items: {
+      'start-translog-company': {
+        title: 'Start Translog Company',
+        excerpt: 'Koncentracja, łączenie i rozwój to nasz strategiczny plan na przyszłość. Grupa Translog powstała w 2005 roku.',
+        body: [
+          'Koncentracja, łączenie i rozwój to nasz strategiczny plan na przyszłość. Grupa Translog powstała w 2005 roku. Skupiamy się na realizacji kilku rodzajów transportu. Aby spełnić oczekiwania naszych klientów, wykorzystujemy wszystkie dostępne możliwości.',
+          'Dzięki wieloletniemu doświadczeniu w logistyce oferujemy naszym klientom transporty standardowe, specjalne oraz ekspresowe non-stop. Zakres naszych usług stale rośnie, dzięki czemu możemy proponować różne rozwiązania dla różnych potrzeb. W naszej ofercie są także transporty towarów niebezpiecznych oraz rozwiązania dla ładunków skonsolidowanych i drobnicowych.',
+          'Interdyscyplinarna wiedza i zróżnicowany sprzęt pozwalają nam natychmiast reagować na indywidualne życzenia klientów. Większość naszej codziennej pracy to organizacja transportów krytycznych czasowo dla przemysłu motoryzacyjnego, ciężkiego i spożywczego.',
+          'Cała flota Grupy Translog i jej wyposażenie stale się zmieniają i mogą być dostosowane do wymagań klientów. Nie tracimy przy tym z oczu ochrony środowiska i efektywności kosztowej.',
+          'Aby zagwarantować klientom, że ich zlecenia zostaną zrealizowane jak najszybciej, także w krótkim terminie, jesteśmy dostępni 24/7 i dostarczamy „Just in Time”!',
+        ],
+      },
+    },
+  },
+  contacts: {
+    title: 'Kontakt', lead: 'Jesteśmy dostępni 24/7. Zadzwoń, napisz lub wyślij zapytanie z trasą.',
+    openMap: 'Otwórz w Mapach Google', formTitle: 'Zapytaj o wycenę',
+  },
+  form: {
+    from: 'Miejsce załadunku', to: 'Miejsce rozładunku', placeholder: 'Miasto, kraj',
+    cargo: 'Ładunek', cargoPh: 'np. 12 palet, 8 t, chłodzony',
+    name: 'Imię i nazwisko', company: 'Firma', email: 'E-mail', phone: 'Telefon',
+    details: 'Szczegóły', detailsPh: 'Terminy, wymiary, wymagania specjalne',
+    submit: 'Wyślij zapytanie e-mailem',
+    note: 'Otworzy Twój program pocztowy z zapytaniem na adres {email}.',
+    sent: 'Program pocztowy otworzył się z zapytaniem. Jeśli nie, napisz na {email}.',
+    subject: 'Zapytanie o transport',
+  },
+  footer: {
+    tagline: 'Każdy dzień jest dla nas nowym dniem i ciężko pracujemy, aby zadowolić naszych klientów wszędzie.',
+    about: 'O nas', conditions: 'Ogólne warunki', rights: 'Wszelkie prawa zastrzeżone.',
+  },
+  notFound: { title: 'Ta strona nie istnieje', text: 'Link może być nieaktualny. Zacznij od strony głównej lub skontaktuj się z nami bezpośrednio.', cta: 'Na stronę główną' },
+}

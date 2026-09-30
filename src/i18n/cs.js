@@ -1,0 +1,122 @@
+export default {
+  meta: {
+    title: 'Translog Company — silniční nákladní doprava po Evropě',
+    description: 'Standardní, speciální a nonstop expresní silniční přepravy po celé EU od roku 2005. Přibližně 150 vozidel EURO 6, k dispozici 24/7.',
+  },
+  nav: {
+    services: 'Služby', fleet: 'Vozový park', company: 'Společnost', news: 'Novinky', contacts: 'Kontakty',
+    quote: 'Poptat přepravu', allServices: 'Všechny služby',
+    allServicesText: 'Vnitrostátní a exportní přepravy, speciální náklady, skladování.',
+    home: 'Úvod', language: 'Jazyk', openMenu: 'Otevřít menu', closeMenu: 'Zavřít menu',
+    skip: 'Přejít na obsah', follow: 'Sledujte nás',
+  },
+  hero: {
+    title: 'Silniční doprava po Evropě, 24/7',
+    lead: 'Standardní, speciální a nonstop expresní přepravy pro automobilový, těžký a potravinářský průmysl. Přibližně 150 vozidel EURO 6, na cestách od roku 2005.',
+    formTitle: 'Kam jede váš náklad?',
+    from: 'Místo nakládky', to: 'Místo vykládky', placeholder: 'Město, země',
+    cta: 'Získat nabídku',
+    formNote: 'Jsme k dispozici 24/7 a odpovíme co nejdříve, i v krátkém termínu.',
+  },
+  facts: [
+    { label: 'Na trhu od', value: '2005' },
+    { label: 'Vozový park', value: 'cca 150 vozidel, EURO 6' },
+    { label: 'Kapacita', value: 'dodávky od 1,5 t až návěsy 24 t' },
+    { label: 'Pojištění CMR', value: 'až 2,5 mil. € na událost' },
+  ],
+  services: {
+    title: 'Služby',
+    lead: 'Většinu naší každodenní práce tvoří časově kritické přepravy pro automobilový, těžký a potravinářský průmysl.',
+    more: 'Více informací', ask: 'Poptat přepravu',
+    extra: [
+      { title: 'Vnitrostátní, export a import', text: 'Přepravy po celém území EU, od balíku po FTL.' },
+      { title: 'Speciální náklady', text: 'Nadrozměrné náklady, odpad a nebezpečné zboží.' },
+      { title: 'Skladování', text: 'Skladová řešení navazující na přepravu.' },
+    ],
+  },
+  service: {
+    express: {
+      title: 'Expresní silniční doprava',
+      short: 'Vyhrazené vozidlo z bodu A do bodu B, bez zastávek a překládek.',
+      intro: 'Celá ložná plocha vozidla je vyhrazena pro vaši zásilku a přeprava probíhá přímo, z bodu A do bodu B, bez dalších zastávek a překládek.',
+      features: ['Od balíku po FTL', 'Monitoring nákladu 24/7', 'Pokrytí celé Evropy', 'Nonstop jízda se 2 řidiči', 'Sledování v reálném čase', 'Doručení Just in Time'],
+      advantages: ['Vozový park 150 moderních vozidel (EURO 6, EURO 5 EEV)', 'Chladírenské a plachtové návěsy', 'Nepřetržitý systém sledování', 'Pojištění CMR až do 15 milionů Kč', 'Zkušenosti s ovocem, zeleninou, mraženými výrobky, průmyslovým a farmaceutickým zbožím'],
+    },
+    'dangerous-goods': {
+      title: 'Nebezpečné zboží a tekuté substráty',
+      short: 'Přepravy ADR a cisterny pro tekuté i sypké substráty.',
+      intro: 'Specializujeme se na přepravu tekutých potravin, jako je čokoláda, pivo, víno, ovocné šťávy, cukerné roztoky, mléko a další.',
+      features: ['Termo návěs', 'Mega návěs', 'Cisterny na tekuté látky', 'Cisterna na sypké materiály', 'Zkušení a proškolení řidiči ADR'],
+      advantages: [],
+    },
+    whatYouGet: 'Co získáte', whyUs: 'Proč Translog',
+  },
+  process: {
+    title: 'Jak probíhá přeprava',
+    lead: 'Jedna kontaktní osoba od poptávky až po doručení.',
+    steps: [
+      { title: 'Poptávka', text: 'Pošlete trasu, náklad a termíny.' },
+      { title: 'Nabídka', text: 'Vybereme vozidlo a pošleme cenu.' },
+      { title: 'Nakládka', text: 'Vozidlo přijede v dohodnutý čas.' },
+      { title: 'Sledování', text: 'GPS a monitoring nákladu 24/7.' },
+      { title: 'Doručení', text: 'Just in Time, s dokumenty CMR.' },
+    ],
+  },
+  fleet: {
+    title: 'Vozový park',
+    lead: 'Přibližně 150 moderních vozidel EURO 6 a EURO 5 EEV, všechna s GPS sledováním. Vozový park a jeho vybavení přizpůsobujeme požadavkům zákazníků.',
+    items: [
+      { title: 'Tahače s návěsy', text: 'Až 24 t' },
+      { title: 'Plachtové návěsy', text: 'Standard a Mega' },
+      { title: 'Chladírenské návěsy', text: 'Potraviny, farmacie, mražené' },
+      { title: 'Cisterny', text: 'Tekuté a sypké substráty' },
+      { title: 'Dodávky', text: 'Od 1,5 t' },
+    ],
+    people: 'Lidé', peopleText: 'Proškolení řidiči, vícejazyčný personál a partnerská síť po celé Evropě.',
+    network: 'Jeden za všechny – všichni pro vás',
+    networkText: 'Díky dlouhodobým partnerstvím s evropskými poskytovateli služeb nabízíme kompletní logistická řešení a vy máte jeden přímý kontakt na nás.',
+  },
+  industries: { title: 'Odvětví', items: ['Automobilový průmysl', 'Těžký průmysl', 'Potraviny', 'Farmacie', 'Průmyslové zboží'] },
+  company: {
+    title: 'Naše společnost',
+    text: 'Skupina Translog byla založena v roce 2005 s provozovnami v České republice a Polsku. Mezioborové know-how a různorodé vybavení nám umožňují okamžitě reagovat na individuální požadavky. Přitom neztrácíme ze zřetele ochranu životního prostředí a hospodárnost.',
+    motto: 'Soustředění, propojování a rozvoj jsou naším strategickým plánem do budoucna.',
+    ceoRole: 'Generální ředitelka',
+    offices: { prague: 'Praha', poland: 'Polsko' },
+  },
+  news: {
+    title: 'Novinky', all: 'Všechny novinky', back: 'Zpět na novinky',
+    items: {
+      'start-translog-company': {
+        title: 'Start Translog Company',
+        excerpt: 'Soustředění, propojování a rozvoj jsou naším strategickým plánem do budoucna. Skupina Translog byla založena v roce 2005.',
+        body: [
+          'Soustředění, propojování a rozvoj jsou naším strategickým plánem do budoucna. Skupina Translog byla založena v roce 2005. Zaměřujeme se na realizaci několika druhů přeprav. Abychom splnili očekávání našich zákazníků, využíváme všechny dostupné možnosti.',
+          'Díky dlouholetým zkušenostem v logistice nabízíme našim zákazníkům standardní, speciální i nonstop expresní přepravy. Rozsah našich služeb neustále roste, takže dokážeme nabídnout různá řešení pro různé požadavky. Součástí našich služeb jsou přepravy nebezpečného zboží i řešení pro konsolidované a sběrné zásilky.',
+          'Mezioborové know-how a různorodé vybavení nám umožňují okamžitě reagovat na individuální přání zákazníků. Většinu naší každodenní práce tvoří organizace časově kritických přeprav pro automobilový, těžký a potravinářský průmysl.',
+          'Celý vozový park skupiny Translog a jeho vybavení se neustále mění a lze jej přizpůsobit požadavkům zákazníků. Přitom neztrácíme ze zřetele ochranu životního prostředí a hospodárnost.',
+          'Abychom našim zákazníkům zaručili, že jejich zakázky vyřídíme co nejdříve, i v krátkém termínu, jsme k dispozici 24/7 a doručujeme „Just in Time“!',
+        ],
+      },
+    },
+  },
+  contacts: {
+    title: 'Kontakty', lead: 'Jsme k dispozici 24/7. Zavolejte, napište nebo pošlete poptávku s trasou.',
+    openMap: 'Otevřít v Google Maps', formTitle: 'Poptat přepravu',
+  },
+  form: {
+    from: 'Místo nakládky', to: 'Místo vykládky', placeholder: 'Město, země',
+    cargo: 'Náklad', cargoPh: 'např. 12 palet, 8 t, chlazené',
+    name: 'Vaše jméno', company: 'Společnost', email: 'E-mail', phone: 'Telefon',
+    details: 'Podrobnosti', detailsPh: 'Termíny, rozměry, zvláštní požadavky',
+    submit: 'Odeslat poptávku e-mailem',
+    note: 'Otevře váš e-mailový program s poptávkou na adresu {email}.',
+    sent: 'E-mailový program se otevřel s poptávkou. Pokud ne, napište na {email}.',
+    subject: 'Poptávka přepravy',
+  },
+  footer: {
+    tagline: 'Každý den je pro nás nový den a tvrdě pracujeme na tom, abychom naše zákazníky uspokojili kdekoli.',
+    about: 'O nás', conditions: 'Všeobecné podmínky', rights: 'Všechna práva vyhrazena.',
+  },
+  notFound: { title: 'Tato stránka neexistuje', text: 'Odkaz je možná zastaralý. Začněte na úvodní stránce nebo nás kontaktujte přímo.', cta: 'Na úvodní stránku' },
+}
